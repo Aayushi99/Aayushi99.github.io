@@ -6,5 +6,5 @@
 * CSS
 
 ## Links For Live Website
- https://github.com/Aayushi99/myResume/
+ https://aayushi99.github.io/myResume/
 
