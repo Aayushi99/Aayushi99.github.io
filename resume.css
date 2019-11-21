@@ -1,0 +1,206 @@
+html{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body{
+        background-image: url(./resume.jpg);
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed;
+}
+.header{
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+.header h3{
+  margin: 20px;
+  font-size:25px;
+}
+.header div{
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header h1,h2,h3{
+  color: white;
+}
+.right{
+  background-color: #c2c2d6;
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#skills
+{
+    font-size: 40px; 
+    color:purple;
+}
+
+#OtherSkills
+{
+  font-size: 40px;
+  color:purple;
+
+}
+.skText{
+  list-style-type: none;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  
+  padding-left: 10px;
+}
+.skText li{
+  margin: 5px 0;
+  border-bottom: 1px solid #999;
+  padding: 12px 0;
+  width: 75%;
+}
+.skText li:last-child{
+  border: none;
+
+}
+#exp
+{
+  padding-left: 550px;
+  font-size: 40px;
+  color:purple;
+}
+#edu
+{
+  padding-left: 550px;
+    font-size: 40px;
+color:purple;
+}
+#contact
+{
+  padding-left: 550px;
+    font-size: 40px;
+    color:purple;
+}
+.expDiv{
+  display: table;
+  margin: 0 auto;
+}
+.expDiv div{
+  display: inline-block;
+  align-self: baseline;
+  margin: 20px;
+}
+.expDiv img{
+  border: 1px solid white;
+  border-radius: 5%;
+}
+.expDiv div ul{
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 25px
+  margin:0;
+}
+.expDiv li{
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+
+.eduDiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 70px 0;
+}
+.eduDiv div{
+  align-self: baseline;
+  
+}
+.eduDiv i{
+  color: #999;
+  display: table;
+  margin: 0 auto;
+  font-size: 150px;
+}
+.eduDiv div ul{
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 20px;
+   color: black; 
+}
+.eduDiv li{
+  margin: 10px 0;
+  font-size: 16px;
+  color: black;
+  font-size: 25px;
+
+}
+.skText i{
+  float: right;
+  font-size: 25px;
+  
+}
+.email{
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.email i{
+  font-size: 30px;
+  color: white;
+  background-color: skyblue;
+  text-align: center;
+  width: 60px;
+  padding: 5px;
+  border-radius: 10px;
+  /* animation: emAni 1s infinite;
+  animation-play-state: paused; */
+}
+.emailHide{
+  color: black;
+  display: inline-block;
+  margin: 0 0 4px 5px;
+  transition: 1s;
+  /* text-align: center; */
+}
+ /* @keyframes emAni {
+   from{ width: 40px; }
+  to{ width: 100px; }
+} */
+ /* .email i:hover{
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: running;
+} */
+/* .email:hover .emailHide{
+  background-color: skyblue;
+}  */
+.phone{
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.phoneHide{
+  color: black;
+  display: inline-block;
+  margin: 0 0 4px 5px;
+  transition: 1s;
+  /* background-color: skyblue; */
+}
+.phoneHide:hover{
+  color: #2CEC47 ;
+}
+a{
+  text-decoration: none;
+}
+.emailHide:hover{
+  color: #E73F58 ;
+}
